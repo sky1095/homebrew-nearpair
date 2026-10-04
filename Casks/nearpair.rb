@@ -1,8 +1,8 @@
 cask "nearpair" do
-  version "2.4.0"
+  version "2.4.0,240"
   sha256 "9c42b6a85b6cda96df41c64e3488b4a01386663717b1642d0319afae5062dfac"
 
-  url "https://nearpair.app/updates/NearPair-#{version}.dmg"
+  url "https://nearpair.app/updates/NearPair-#{version.before_comma}.dmg"
   name "NearPair"
   desc "Nearby Bluetooth accessory detection, battery monitoring and equalizer"
   homepage "https://nearpair.app/"
